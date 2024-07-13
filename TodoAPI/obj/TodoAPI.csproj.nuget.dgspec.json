@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\Visual-code\\web_compare_cdr\\TodoAPI\\TodoAPI.csproj": {}
+    "D:\\Duc\\Exercise\\VisualCode\\web_compare_cdr\\TodoAPI\\TodoAPI.csproj": {}
   },
   "projects": {
-    "D:\\Work\\Visual-code\\web_compare_cdr\\TodoAPI\\TodoAPI.csproj": {
+    "D:\\Duc\\Exercise\\VisualCode\\web_compare_cdr\\TodoAPI\\TodoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Visual-code\\web_compare_cdr\\TodoAPI\\TodoAPI.csproj",
+        "projectUniqueName": "D:\\Duc\\Exercise\\VisualCode\\web_compare_cdr\\TodoAPI\\TodoAPI.csproj",
         "projectName": "TodoAPI",
-        "projectPath": "D:\\Work\\Visual-code\\web_compare_cdr\\TodoAPI\\TodoAPI.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Visual-code\\web_compare_cdr\\TodoAPI\\obj\\",
+        "projectPath": "D:\\Duc\\Exercise\\VisualCode\\web_compare_cdr\\TodoAPI\\TodoAPI.csproj",
+        "packagesPath": "C:\\Users\\DO HUU DUC\\.nuget\\packages\\",
+        "outputPath": "D:\\Duc\\Exercise\\VisualCode\\web_compare_cdr\\TodoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DO HUU DUC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,9 +45,27 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -71,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
