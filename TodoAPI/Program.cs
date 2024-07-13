@@ -15,9 +15,6 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<DbSettings>(builder.Configuration.GetSection("DbSettings")); // Add this line
 builder.Services.AddSingleton<TodoDbContext>(); // Add this line
 
-
-
-
 var app = builder.Build();
 
 // Add this line
