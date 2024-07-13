@@ -1,6 +1,8 @@
 //programCS
 var builder = WebApplication.CreateBuilder(args);
 //add service container
+builder.Services.AddControllers();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
